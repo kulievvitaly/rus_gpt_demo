@@ -1,6 +1,5 @@
 import openai
-import time, json, random, traceback, os
-import requests
+import time, os
 from dotenv import load_dotenv
 
 load_dotenv()
