@@ -13,7 +13,7 @@ client = openai.OpenAI(
 MODEL = 'NousResearch/Meta-Llama-3-8B-Instruct'
 
 prompt = """
-Calculate the expression: "2+5". answer in json format: {"answer": your_int_answer_here}. do not write anything else.
+Calculate the expression: "16+5". answer in json format: {"answer": your_int_answer_here}. do not write anything else.
 """
 
 if __name__ == '__main__':
